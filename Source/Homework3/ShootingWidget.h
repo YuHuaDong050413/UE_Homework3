@@ -21,11 +21,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Shooting")
 	void PlayOnTargetAnimation();
 
-	/*UFUNCTION(Category = "Shooting")
-	void BulletMinus();*/
-
 protected:
-	//virtual void NativeConstruct() override;
 
 
 protected:
@@ -44,21 +40,7 @@ protected:
 	
 	UPROPERTY(EditAnywhere, Category = "Shooting", meta = (BindWidget))
 	TObjectPtr<UImage> Dolt;
-
-	/*UPROPERTY(EditAnywhere, Category = "Shooting", meta = (BindWidget))
-	TObjectPtr<UProgressBar> BloodBar;
-
-	UPROPERTY(EditAnywhere, Category = "Shooting", meta = (BindWidget))
-	TObjectPtr<UProgressBar> WeaponBar;
-
-	UPROPERTY(EditAnywhere, Category = "Shooting", meta = (BindWidget))
-	TObjectPtr<UTextBlock> WeaponText;*/
 public:
-	/*UPROPERTY()
-	float CurrentBullet;
-
-	UPROPERTY(EditAnywhere, Category = "Bullet")
-	float MaxBullet;*/
 
 	UPROPERTY(EditAnywhere, Category = "Shooting", meta = (BindWidget))
 	TObjectPtr<UImage> LeftUpImage;
